@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 export const ToggleButton = ({ setOpen }) => {
   return (
     <button onClick={() => setOpen((prev) => !prev)}>
-      <svg wigth="23" height="23" ciewBox="0 0 23 23">
+      <svg width="23" height="23" ciewBox="0 0 23 23">
         <motion.path strokeWidth="3" stroke="black" strokeLinecap='round'
           variants={{
             closed: { d: "M 2 2.5 L 20 2.5" },

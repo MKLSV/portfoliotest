@@ -25,6 +25,7 @@
       align-items: center;
       justify-content: center;
       gap: 20px;
+      box-shadow: 11px 0px 20px 0px black;
 
       a {
         font-size: 40px;
@@ -42,5 +43,8 @@
     left: 25px;
     background-color: transparent;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
