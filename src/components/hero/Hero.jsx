@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { TypeAnimation } from "react-type-animation";
 import './hero.scss'
+import { HeroImage } from './HeroImage';
 
 const textVariants = {
     initial: {
@@ -74,9 +75,7 @@ export const Hero = () => {
             <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
                 Writer Contant Creater Influencer
             </motion.div>
-            <div className="imageContainer">
-                <img src="/hero.png" alt="" />
-            </div>
+            <HeroImage />
         </div>
     )
 }
